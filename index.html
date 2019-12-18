@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8">
+    <title>BCN SAMPLE PROGRAM</title>
+    <link href='https://fonts.googleapis.com/css?family=Barlow Condensed' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type ="text/css" href="css/bootstrap.min.css">
+    <script src="js/jquery-3.4.1.min.js"></script>	
+    <script src="js/bootstrap.min.js"></script>	
+    <script src="https://storage.googleapis.com/code.getmdl.io/1.1.0/material.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/material.indigo-pink.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.cuttingedge-events.com" target="_blank"><img src="images/CUTTLOGO.svg" height="50" width=100%></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index_1.html"><strong>QUOTATION</strong> 
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="credentials.html"><strong>CREDENTIALS</strong></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><!--END Navigation -->
+
+ 
+  
+  <div class="container">  <!-- Page Content -->
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill"  href="#overview"><strong>Overview</strong> </a></li>
+      <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill" href="#accommodation"><strong>Accommodation</strong></a></li>
+      <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill" href="#program"><strong>Proposed Program</strong></a></li>
+      <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill" href="#budget"><strong>Budget</strong></a></li>
+    </ul>
+        <div class="tab-content">
+          
+          <div id="overview" class="tab-pane fade"> <!-- overview -->
+            <h3><strong>BCN SAMPLE PROGRAM</strong></h3>
+            <p>
+              We at <strong>CUTT/events</strong> strive every day to improve the way we communicate our <em>ideas</em> to our clients. 
+              This section will show you a graphic <strong>overview</strong> of the program, and a <strong> map</strong> in which you will easily locate all the hotels and restaurants and get an idea of distances. 
+            </p>
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill"  href="#timeline"><strong>Program timeline</strong> </a></li>
+              <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill" href="#map"><strong>Map</strong></a></li>
+            </ul>
+            <div class="tab-content"> <!-- timeline & map -->
+                <div id="timeline" class="tab-pane fade">
+                    <iframe src='timeline.html' width="100%" height="700" frameborder="0" scrolling="no"></iframe>
+                </div>
+                <div id="map" class="tab-pane fade">
+                   <iframe src="https://www.google.com/maps/d/embed?mid=1aOlo3ab8vy_ufgAaIqFwU-O7NBsmc8vT&hl=es" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen  ></iframe>
+                </div>
+            </div> <!-- END timeline & map -->
+
+          </div><!-- END overview -->
+
+          <div id="accommodation" class="tab-pane fade"> <!-- accommodation -->
+            <h3><strong>Suggested Hotels</strong></h3>
+            <p>
+              Based on your request, on what we know, value for money, and suitability - we would recommend you to choose the following  properties. The rest of the program is based on the assumption
+              that the group would stay in our main suggested Hotel. Additionally, we have selected two more hotels that we are offering as an option.
+            </p>
+            <ul class="nav nav-pills">
+              <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill"  href="#mainHotel"><strong>Main Hotel</strong> </a></li>
+              <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill" href="#option2"><strong>Second Option</strong></a></li>
+              <li class="nav-item"><a  class="nav-link btn btn-outline-dark" data-toggle="pill" href="#option3"><strong>Third Option</strong></a></li>
+            </ul>
+            <div class="tab-content"> <!-- hotels -->
+              <div id="mainHotel" class="tab-pane fade">
+                  <iframe src='fichas/H10 Metropolitan/H10Metropolitan.html' width="100%" height="1280" frameborder="0" scrolling="no"></iframe>
+              </div>
+              <div id="option2" class="tab-pane fade">
+                  <iframe src='fichas/The Corner/Corner.html' width="100%" height="1280" frameborder="0" scrolling="no"></iframe>
+              </div>
+              <div id="option3" class="tab-pane fade">
+                  <iframe src='fichas/Casa Fuster/Casa Fuster.html' width="100%" height="1800" frameborder="0" scrolling="no"></iframe>
+              </div>
+          </div> <!-- END hotels -->
+
+          </div> <!-- END accommodation -->
+          
+          <div id="program" class="tab-pane fade"> <!-- program -->
+           
+            <iframe src='program.html' width="100%" height="700" frameborder="0" scrolling="yes"></iframe>
+           
+          </div> <!-- END program -->
+
+          <div id="budget" class="tab-pane fade">  <!-- budget -->
+            <h4><strong>The following budget is based on the proposed program. The costs are valid for 15 days, and based upon avaibility when confirmed</strong></h4>
+           
+            <iframe src='budget-prueba.html' width="100%" height="1500" frameborder="0" scrolling="no"></iframe>
+            
+          </div>  <!-- END budget -->
+
+          </div> <!-- END Page Content -->
+           
+            
+          
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
